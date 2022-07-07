@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - check the code
- * @n: n
+ * @size: size
  */
 void print_triangle(int size)
 {
