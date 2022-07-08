@@ -2,9 +2,7 @@
 
 /**
  * positive_or_negative - This is a description
- * @i: i
- *
- * Return: returns 0
+ * @i: check the code
  */
 void positive_or_negative(int i)
 {
