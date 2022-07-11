@@ -29,7 +29,6 @@ int main(void)
 
 		if (c % 2 == 0)
 			sum += c;
-		
 	}
 	printf("\n");
 	return (0);
