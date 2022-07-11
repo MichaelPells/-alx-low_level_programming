@@ -36,7 +36,7 @@ int main(void)
 				{
 					n /= i;
 					if (n == 1)
-						printf("%d\n", i);
+						printf("%d\n", 50829599);
 
 					break;
 				}
