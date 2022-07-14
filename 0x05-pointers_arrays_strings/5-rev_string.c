@@ -7,7 +7,7 @@
 void rev_string(char *s)
 {
 	int n;
-	char str[100];
+	char str[1000];
 
 	strcpy(str, s);
 
