@@ -20,7 +20,7 @@ char *leet(char *str)
 		|| tolower(str[i]) == 't' || tolower(str[i]) == 'l')
 		{
 			j = 0;
-			while (str[i] != a[j])
+			while (tolower(str[i]) != a[j])
 			{
 				j++;
 			}
