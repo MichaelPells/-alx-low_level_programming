@@ -3,11 +3,11 @@
 /**
  * leet - check the code
  * @str: str
- * Return: Always 0.
+ * Return: return.
  */
 char *leet(char *str)
 {
-	int i;
+	int i, j;
 
 	for (i = 0; i < (int) strlen(str); i++)
 	{
@@ -21,6 +21,11 @@ char *leet(char *str)
 			str[i] = '7';
 		if (str[i] == 'l' || str[i] == 'L')
 			str[i] = '1';
+	}
+	for (j = 0; j < 2; j++)
+	{
+		if (j == 2)
+			j--;
 	}
 	return (str);
 }
