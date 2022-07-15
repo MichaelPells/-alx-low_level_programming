@@ -7,7 +7,7 @@
  */
 char *leet(char *str)
 {
-	int i, j, x;
+	int i, j;
 	char *a, *b;
 
 	a = "aeotl";
@@ -19,15 +19,12 @@ char *leet(char *str)
 		|| tolower(str[i]) == 'e' || tolower(str[i]) == 'o'
 		|| tolower(str[i]) == 't' || tolower(str[i]) == 'l')
 		{
-			for (j = 0; j < (int) strlen(a); j++)
+			j = 0;
+			while (str[i] != a[j])
 			{
-				if (str[i] == a[j])
-				{
-					x = j;
-					break;
-				}
+				j++;
 			}
-			str[i] = b[x];
+			str[i] = b[j];
 		}
 
 	}
