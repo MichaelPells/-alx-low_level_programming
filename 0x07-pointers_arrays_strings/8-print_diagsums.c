@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <math.h>
 
 /**
  * print_diagsums - 0
@@ -9,6 +10,7 @@
 void print_diagsums(int *a, int size)
 {
 	int i, x, y;
+	float c;
 
 	x = 0;
 	y = 0;
@@ -20,7 +22,9 @@ void print_diagsums(int *a, int size)
 			x += a[i];
 		}
 
-		if (i == (int) (size * ceil((float) (i + 1)  / (float) size) - ceil((float) (i + 1)  / (float) size)))
+		c = (float) (i + 1);
+
+		if (i == size * ceil(c  / (float) size) - ceil(c  / (float) size))
 		{
 			y += a[i];
 		}
