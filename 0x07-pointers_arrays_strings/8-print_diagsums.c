@@ -4,27 +4,26 @@
 
 /**
  * print_diagsums - 0
- * @a: 0
+ * @a: a
  * @size: 0
  */
 void print_diagsums(int *a, int size)
 {
-	int i, x, y;
-	float c;
+	int i, x, y, f;
 
 	x = 0;
 	y = 0;
 
 	for (i = 0; i < size * size; i++)
 	{
-		if (i == (size * floor(i / size)) + floor(i / size))
+		f = floor(i / size);
+
+		if (i == (size * f) + f)
 		{
 			x += a[i];
 		}
 
-		c = (float) (i + 1);
-
-		if (i == size * ceil(c  / (float) size) - ceil(c  / (float) size))
+		if (i == size * (f + 1) - (f + 1))
 		{
 			y += a[i];
 		}
