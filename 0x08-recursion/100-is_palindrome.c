@@ -13,7 +13,7 @@ int is_palindrome(char *s)
 }
 
 /**
- * check_factors - ?
+ * compare - ?
  * @s: ?
  * @i: ?
  *
