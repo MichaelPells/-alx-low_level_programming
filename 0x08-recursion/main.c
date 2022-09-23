@@ -5,8 +5,8 @@
  */
 void main(void)
 {
-	char *a = 5001;
-	int b = (int *) a;
+	int a = 5001;
+	(char *) a
 
 	printf("%s\n", b);
 }
