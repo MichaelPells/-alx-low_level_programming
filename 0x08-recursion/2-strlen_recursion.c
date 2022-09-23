@@ -4,7 +4,7 @@
 /**
  * _strlen_recursion - check the code
  * @s: s
- * 
+ *
  * Return: ?
  */
 int _strlen_recursion(char *s)

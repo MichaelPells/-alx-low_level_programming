@@ -4,7 +4,7 @@
 /**
  * is_palindrome - ?
  * @s: ?
- * 
+ *
  * Return: ?
  */
 int is_palindrome(char *s)
@@ -16,7 +16,7 @@ int is_palindrome(char *s)
  * check_factors - ?
  * @s: ?
  * @i: ?
- * 
+ *
  * Return: ?
  */
 int compare(char *s, int i)

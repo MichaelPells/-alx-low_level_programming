@@ -4,7 +4,7 @@
 /**
  * _sqrt_recursion - ?
  * @n: ?
- * 
+ *
  * Return: ?
  */
 int _sqrt_recursion(int n)
@@ -18,7 +18,7 @@ int _sqrt_recursion(int n)
  * @n: ?
  * @start: ?
  * @limit: ?
- * 
+ *
  * Return: ?
  */
 int find_sqrt(int n, int start, int limit)
@@ -44,7 +44,7 @@ int find_sqrt(int n, int start, int limit)
  * @start: ?
  * @f: ?
  * @limit: ?
- * 
+ *
  * Return: ?
  */
 int _sqrt(int n, int start, int f, int limit)
@@ -56,6 +56,6 @@ int _sqrt(int n, int start, int f, int limit)
 		return (f);
 	if ((long int) f * f > (long int) n)
 		return (-1);
-	
+
 	return (_sqrt(n, start, ++f, limit));
 }
