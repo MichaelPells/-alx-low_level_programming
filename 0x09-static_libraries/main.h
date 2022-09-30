@@ -3,7 +3,9 @@
 
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 #include <math.h>
+#include <stdio.h>
 
 int _putchar(char c);
 int _islower(int c);

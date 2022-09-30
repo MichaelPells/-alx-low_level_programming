@@ -6,7 +6,8 @@
  *
  * Return: Always 0.
  */
-int _atoi(char *s);
+int _atoi(char *s)
 {
+	return (strlen(s));
 }
 
