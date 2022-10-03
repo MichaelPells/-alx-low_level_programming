@@ -26,13 +26,13 @@ int main(int argc, char *argv[])
 	{
 		rem = cents;
 		coins += floor(rem / 25);
-		rem = cents % 25;
+		rem = rem % 25;
 		coins += floor(rem / 10);
-		rem = cents % 10;
+		rem = rem % 10;
 		coins += floor(rem / 5);
-		rem = cents % 5;
+		rem = rem % 5;
 		coins += floor(rem / 2);
-		rem = cents % 2;
+		rem = rem % 2;
 		coins += rem;
 	}
 
